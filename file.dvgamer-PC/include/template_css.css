@@ -1,0 +1,110 @@
+body {
+	font:Tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0px; 
+	margin: 0px;
+	color: #373737;
+	}
+table {
+	font:Tahoma;
+	font-size: 11px;
+	color: #373737;
+}
+
+/* FORM
+--------------------------------------------------------- */
+input, select {
+	font: 11px "Trebuchet MS", Arial, sans-serif;
+}
+
+#inputbox, #listmenu {
+	background: #fbfbfb;
+	border: 1px solid #c9c9c9;
+	margin-bottom: 2px;
+}
+
+#inputbox:hover, #inputbox:active {
+	border-color: #9cafdf;
+	text-decoration: none;
+}
+textarea {
+	border: 1px solid #c9c9c9;
+	padding-left: 1px;
+}
+
+#button:hover, #button:active  { 
+	border: #9b9b9b groove 1px;
+	background: #c8c8c8;
+	}
+	
+#button { 
+	text-align: center;
+	padding: 0 10px 0 10px;
+	font-size:11px;
+	border: #9b9b9b groove 1px;
+	background: #f8f8f8;
+	}
+/* --------------------------------------------------------- */
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 170%;
+}
+h3 {
+	font-size: 120%;
+}
+a {
+	color: #006633;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	color: #373737;
+	text-decoration:none;
+}
+
+#ie6fix { 
+	behavior: url(../images/iepngfix.htc);
+	}
+.module-left { 
+	font-size:11px; 
+	width:62% !important; 
+	margin:0 0 0 10px !important; 
+	padding:4px 0 4px 25px !important; 
+	border-top:dotted #CCC 1px; 
+	border-left: solid #CCC 5px;}
+	
+.module-left a { color:#000000 !important; font-weight:normal; }
+div.module-left:hover { background:#EEE !important;}
+#logo {margin-top:10px; }
+.logo {margin-bottom:-100px;}
+.line{margin:3px 0 0 -12px;}
+
+#modulebar {background:url(../images/Header/Module_Above.png) top no-repeat; padding-top:30px; width:140px; top:200px; float:left; position:absolute;}
+#modulebar div {background:url(../images/Header/Module_Below.png) bottom no-repeat; padding-bottom:30px;}
+#modulebar div div {background:url(../images/Header/Module_Body.png) repeat-y; }
+#modulebar div div div { padding:0px; margin:0px;}
+#modulebar div div div.nameMenu { padding:10px 20px 10px 10px; background:none !important; margin:0px !important; text-align:center;}
+
+#headbar {background:url(../images/Header/Header_Left.png) top left no-repeat; height:95px; width:400px;}
+#headbar div {background:url(../images/Header/Header_Right.png) top right no-repeat; height:95px; padding-right:10px; margin-left:-13px}
+#headbar div div {background:url(../images/Header/Header_Body.png) top repeat-x; margin:0 20px 0 43px; padding-left:10px; height:95px;}
+#headbar div div div {background:none !important; float:left; position:relative; padding:0px; margin:0px; text-align:center; width:80px;}
+
+
+.main { font-size:12px;}
+.main_head {background:url(../images/Main_head_L.png) left top repeat-y; height:60px;}
+.main_head div {background:url(../images/Main_head_R.png) right top repeat-y; margin-left:7px; height:60px;}
+.main_head div div {background:url(../images/Main_head.png); margin-right:15px; height:60px; padding-left:10px; padding-top:30px;}
+
+.main_body {background:url(../images/Main_body_L.png) left top repeat-y;}
+.main_body div {background:url(../images/Main_body_R.png) right top repeat-y; margin-left:7px; }
+.main_body div div {background:url(../images/Main_body.png); margin-right:15px; padding:0 10px 0 10px;}
+
+.main_foot {background:url(../images/Main_Footer_L.png) left top repeat-y; height:60px;}
+.main_foot div {background:url(../images/Main_Footer_R.png) right top repeat-y; margin-left:7px; height:60px;}
+.main_foot div div {background:url(../images/Main_Footer.png); margin-right:15px; height:60px;}
