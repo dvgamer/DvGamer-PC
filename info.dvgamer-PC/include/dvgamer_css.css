@@ -1,0 +1,88 @@
+.image {
+	border: #CCCCCC solid 2px;
+	background-color:#FFFFFF;
+	padding:50px;
+	}
+
+.viewgame {
+	font-size:11px;
+	color:#000000;
+	border-bottom:#FFFFFF dotted 1px;
+	border-top:#FFFFFF dotted 1px;
+}
+
+.listgame {
+	font-size:11px;
+	color:#000000;
+	border-bottom:#FFFFFF dotted 1px;
+	border-top:#FFFFFF dotted 1px;
+}
+.button {
+	background:#e9e9e9;
+	border:#cacaca solid 1px;
+	margin:3px 5px 3px 5px;
+	padding:2px 10px 2px 10px;
+	cursor: auto;
+}
+.button:hover, .button:active  { 
+	border: #9b9b9b groove 1px;
+	background: #c8c8c8;
+	margin:3px 5px 3px 5px;
+	padding:2px 10px 2px 10px;
+	cursor: auto!important;
+	}
+.listgame a {
+	font-size:11px;
+	color:#FF9900;
+}
+.listgame td {
+	border-bottom:#999999 dotted 1px;
+	text-align: left;
+}
+#login {
+	background:url(../images/bg_login.png) no-repeat;
+	padding-bottom:10px;
+}
+
+.fromlogin {
+	background:none !important;
+	padding:0px;
+	margin:0px;
+}
+#login td {	padding:5px 0 0 0;}
+
+#userinput, #keyinput {
+	border: 1px solid #c9c9c9;
+	margin-bottom: 2px;
+}
+#userinput { background:url(../images/user.png) no-repeat left; padding-left:18px;}
+#keyinput {background:url(../images/key.png) no-repeat left; padding-left:18px;}
+
+
+.blue {
+	background:#d3e5f2 !important;
+	padding: 10px 0 10px 20px !important;
+	border:#71aed9 solid 2px;
+	width:90%;
+	color:#06F;
+}
+.red {
+	background:#f2d3d3 !important;
+	padding: 10px 0 10px 20px !important;
+	border:#d97171 solid 2px;
+	width:90%;
+	color:#C30;
+}
+.page {
+	background:#e9e9e9;
+	border:#cacaca solid 1px;
+	margin:3px 5px 3px 5px;
+	padding:2px 5px 2px 5px;
+}
+.comment {
+	border:#CCC solid 1px;
+	padding:10px;
+}
+#link {
+	cursor:default;
+}
